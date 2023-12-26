@@ -25,6 +25,11 @@
   border-radius: 20px;
   width: 580px;
 }
+@media (max-width: 630px) {
+  .box-container {
+    width: calc(100% - 40px);
+  }
+}
 .header {
   display: flex;
   gap: 20px;
@@ -55,6 +60,7 @@
 }
 .faqs .faq .faq-header .icon img {
   cursor: pointer;
+  margin-left: 20px;
 }
 .faqs .faq .faq-header h4 {
   cursor: pointer;
@@ -62,7 +68,6 @@
 .faqs .faq .faq-header h4:hover {
   color: #ad28eb;
 }
-
 .faq .content {
   color: hsl(292, 16%, 49%);
   margin-top: 15px;
@@ -71,7 +76,6 @@
 .faq .content p {
   line-height: 1.4;
 }
-
 .opened {
   display: block !important;
 }
