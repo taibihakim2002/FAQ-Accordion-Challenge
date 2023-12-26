@@ -1,0 +1,77 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.full-page {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(275, 100%, 97%);
+}
+.top-image {
+  background-image: url("assets/images/background-pattern-desktop.svg");
+  width: 100%;
+  height: 33%;
+  background-size: cover;
+}
+.box-container {
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 30px 10px;
+  border-radius: 20px;
+  width: 580px;
+}
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: hsl(292, 42%, 14%);
+}
+.faqs {
+  display: flex;
+  flex-direction: column;
+}
+.faq {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.faq:not(:last-child) {
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+}
+.faqs .faq .faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(292, 42%, 14%);
+}
+.faqs .faq .faq-header .icon img {
+  cursor: pointer;
+}
+.faqs .faq .faq-header h4 {
+  cursor: pointer;
+}
+.faqs .faq .faq-header h4:hover {
+  color: #ad28eb;
+}
+
+.faq .content {
+  color: hsl(292, 16%, 49%);
+  margin-top: 15px;
+  display: none;
+}
+.faq .content p {
+  line-height: 1.4;
+}
+
+.opened {
+  display: block !important;
+}
