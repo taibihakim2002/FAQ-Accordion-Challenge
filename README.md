@@ -5,3 +5,5 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
+
+**Live Preview:** https://taibihakim2002.github.io/FAQ-Accordion-Challenge/
